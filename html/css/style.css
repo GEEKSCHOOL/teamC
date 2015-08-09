@@ -1,25 +1,33 @@
-nav,footer.page-footer{
+nav,
+footer.page-footer {
     /*background-color: rgba(243, 177, 78, 0.91);*/
 }
+
 nav .brand-logo {
     padding-left: 120px;
 }
-.slider-style{
-	height:400px;
+
+.slider-style {
+    height: 400px;
 }
-.margin-top-1ps{
-    margin-top:1vw;
+
+.margin-top-1ps {
+    margin-top: 1vw;
 }
-.margin-top-2ps{
-	margin-top:2vw;
+
+.margin-top-2ps {
+    margin-top: 2vw;
 }
-.margin-top-6ps{
-    margin-top:6vw;
+
+.margin-top-6ps {
+    margin-top: 6vw;
 }
-.padding-bottom-6ps{
+
+.padding-bottom-6ps {
     padding-bottom: 6px !important;
 }
-.label{
+
+.label {
     width: 100%;
     position: absolute;
     bottom: 0px;
@@ -33,18 +41,21 @@ nav .brand-logo {
     box-sizing: border-box;
 }
 
-.logo{
-	width: 15%;
+.logo {
+    width: 15%;
 }
-.tab-style{
+
+.tab-style {
     border: 1.8px solid #B3B3B3;
     border-radius: 12px;
 }
-.margin-reset{
-        display: block;
+
+.margin-reset {
+    display: block;
     margin: 0 auto;
     padding: 0;
 }
+
 .col.offset-l1.l10.slider-stye.card {
     padding: 12px;
 }

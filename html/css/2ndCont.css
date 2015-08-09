@@ -1,0 +1,197 @@
+body {
+    background-image: url("../img/olympic5.png");
+    background-size: 70px 60px;
+}
+
+.contents-view {
+    display: block;
+    color: red;
+}
+
+.contents-area {
+    float: left;
+    padding: 0px 20px;
+    margin: auto;
+}
+
+.contents-area img {
+    width: 200px;
+}
+
+.areaA {
+    transform: rotate(-30deg);
+}
+
+.areaC {
+    transform: rotate(30deg);
+}
+
+.areaD {
+    transform: rotate(30deg);
+}
+
+.areaE {
+    transform: ;
+}
+
+.reports h3 {}
+
+.reports p {
+    width: 30%;
+    padding: 0px 30px;
+    float: left;
+    display: inline;
+}
+
+.clear {
+    clear: both;
+}
+
+.area {
+    float: left;
+    width: 200px;
+    height: 300px;
+    border: solid 10px #000000;
+    transform: rotate(60deg);
+}
+
+.area1 {
+    background-color: orange;
+}
+
+.area img {
+    position: absolute;
+    top: 60px;
+    left: -30px;
+    max-width: 260px;
+    max-height: 170px;
+    transform: rotate(-90deg);
+}
+
+.area2 {
+    background-color: green;
+}
+
+.area3 {
+    background-color: blue;
+}
+
+.area4 {
+    background-color: red;
+}
+
+.area5 {
+    background-color: yellow;
+}
+
+.memo-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 230px;
+    height: 280px;
+    padding: 20px;
+    margin: 20px 60px;
+    background-image: url("http://growup-fine.com/wp-content/uploads/2015/06/Fotolia_34169695_S.jpg");
+}
+
+.memo-content h5 {
+    font-size: 20px;
+}
+
+.memo-content h5,
+p {
+    position: relative;
+    top: -15px;
+}
+
+.test a {
+    color: whitesmoke;
+}
+
+.test a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+.test ul {
+    list-style: none;
+    top: 0;
+    height: 200px;
+    margin: 50px 0px;
+    padding: 0;
+    text-align: center;
+}
+
+.test ul li,
+.test ul li dl {
+    position: absolute;
+    top: -25px;
+    left: -2px;
+    width: 230px;
+    height: 280px;
+}
+
+.test ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 5px;
+}
+
+.test ul dl {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 20px 10px;
+    color: white;
+    background: rgba(205, 92, 92, 0.75);
+}
+
+.test ul dl dt {
+    margin-bottom: 0.5em;
+}
+
+.test ul dl dd {
+    margin: 0;
+    font-size: 10px;
+    line-height: 1.6em;
+    text-align: justify;
+    word-break: break-all;
+}
+
+.test ul dl dd:last-of-type {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.test ul a {
+    padding: 0.3em 0.5em;
+}
+
+.type1 dl {
+    opacity: 0;
+    transform: scale(0.75, 0);
+    transition: 0.5s;
+}
+
+.type1:hover dl {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.type1 img {
+    max-width: 230px;
+}
+
+.memo-icon {
+    width: 230px;
+    height: 280px;
+    margin: 0px 30px;
+    background-image: url("http://growup-fine.com/wp-content/uploads/2015/06/Fotolia_34169695_S.jpg");
+}
+
+.category-name {
+    width: 500px;
+    height: 100px;
+    background-color: gray;
+}
