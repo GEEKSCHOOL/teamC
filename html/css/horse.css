@@ -1,0 +1,32 @@
+.logo {
+	width: 5%;
+	height: 5%;
+	margin: 0px 20px 0px 20px;
+}
+
+.margin-top-2ps{
+    margin-top:2vw;
+}
+
+.margin-left-2ps{
+    margin-left:2vw;
+}
+
+.genchan{
+    opacity: 0;
+    display: none;
+}
+
+.label{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
